@@ -1,0 +1,34 @@
+[{
+	"name": "SDDC Manager",
+	"url": "https://sddc-manager.vcf.sddc.lab"
+}, {
+	"name": "Mgmt Domain",
+	"children": [{
+		"name": "Mgmt vCenter",
+		"url": "https://vcenter-mgmt.vcf.sddc.lab"
+	}, {
+		"name": "Mgmt NSX",
+		"url": "https://nsx-mgmt.vcf.sddc.lab"
+	}]
+}, {
+	"name": "WLD Domain",
+	"children": [{
+		"name": "WLD vCenter",
+		"url": "https://vcenter-wld.vcf.sddc.lab"
+	}, {
+		"name": "WLD NSX",
+		"url": "https://nsx-wld.vcf.sddc.lab"
+	}]
+}, {
+	"name": "vRealize",
+	"children": [{
+		"name": "vRealize Suite LifeCycle Manager",
+		"url": "https://vrslcm.vcf.sddc.lab"
+	}, {
+		"name": "vRealize Automation",
+		"url": "https://vra.vcf.sddc.lab"
+	}, {
+		"name": "Workspace One Access",
+		"url": "https://ws1.vcf.sddc.lab"
+	}]
+}]
