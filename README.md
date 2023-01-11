@@ -16,36 +16,36 @@ The autoJump Script will complete the configuration and installation of the foll
 -Disables Firewall and IE Enhanced Security
 -Enables remote desktop connectivity via RDP
 
-Optionally the script can install and configure:
--Google Chrome
--Putty
--PowerCLI
--PowerVCF
--PowerValidated Solutions
--VCF Lab Constructor
--Additional Files and scripts
+Optionally the script can install and configure:<br>
+-Google Chrome<br>
+-Putty<br>
+-PowerCLI<br>
+-PowerVCF<br>
+-PowerValidated Solutions<br>
+-VCF Lab Constructor<br>
+-Additional Files and scripts<br>
 
-You will need to download and specify the location via script parameters (detailed below) the following software at a minimum:
+You will need to download and specify the location via script parameters (detailed below) the following software at a minimum:<br>
 -Windows Server 2019 - This is an evaluation copy that will expire 180 days from date of install
  -https://software-download.microsoft.com/download/pr/17763.737.190906-2324.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us_1.iso
 -Latest VMTools
  -https://packages.vmware.com/tools/esx/latest/windows/x64/
 
-Locations for downloading optional software:
--Google Chrome Standalone
- -https://www.google.com/intl/en/chrome/?standalone=1
--Latest PowerCLI module Zip
- -https://developer.vmware.com/web/tool/vmware-powercli
--Latest PowerVCF module Zip 
- -https://github.com/vmware/powershell-module-for-vmware-cloud-foundation/archive/refs/heads/main.zip
--Latest PowerValidatedSolutions module Zip
- -https://github.com/vmware-samples/power-validated-solutions-for-cloud-foundation/archive/refs/heads/main.zip
--Latest Putty SSH Client MSI
- -https://tartarus.org/~simon/putty-snapshots/w64/putty-64bit-installer.msi
--Latest OVFTool
- -https://developer.vmware.com/web/tool/4.4.0/ovf
--VCF Lab Constructor
- -https://tiny.cc/getVLCBits
+Locations for downloading optional software:<br>
+-Google Chrome Standalone<br>
+ -https://www.google.com/intl/en/chrome/?standalone=1<br>
+-Latest PowerCLI module Zip<br>
+ -https://developer.vmware.com/web/tool/vmware-powercli<br>
+-Latest PowerVCF module Zip<br>
+ -https://github.com/vmware/powershell-module-for-vmware-cloud-foundation/archive/refs/heads/main.zip<br>
+-Latest PowerValidatedSolutions module Zip<br>
+ -https://github.com/vmware-samples/power-validated-solutions-for-cloud-foundation/archive/refs/heads/main.zip<br>
+-Latest Putty SSH Client MSI<br>
+ -https://tartarus.org/~simon/putty-snapshots/w64/putty-64bit-installer.msi<br>
+-Latest OVFTool<br>
+ -https://developer.vmware.com/web/tool/4.4.0/ovf<br>
+-VCF Lab Constructor<br>
+ -https://tiny.cc/getVLCBits<br>
 
 Once the ISO is created you'll need to create a VM, mount the ISO and boot the VM.  It can take ~30 minutes to run the install and configuration but there is no interaction required.
 
